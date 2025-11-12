@@ -2,6 +2,7 @@
 #define MAMMAL_H
 
 #include "Animal.h"
+
 class mammal : public animal{
 
 private :
@@ -10,7 +11,7 @@ private :
 
 public :
     mammal();
-    mammal(string n , int a , bool i );
+    mammal(string f );
     ~mammal();
     void setfurColor ();
     string getfurColor();
@@ -21,6 +22,7 @@ public :
 
 
 };
+
 
 
 
