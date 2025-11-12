@@ -11,7 +11,7 @@ private :
 
 public :
     bird();
-    bird(string n , int a , bool i );
+    bird(float w  );
     ~bird();
     void wingSpan();
     float wingSpan();
@@ -22,7 +22,6 @@ public :
 
 
 };
-
 
 
 
